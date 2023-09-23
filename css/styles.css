@@ -506,11 +506,11 @@ a {
   padding: 8px 16px;
   background-color: transparent;
   font-size: 12px;
-  line-height: 2;
   letter-spacing: 0.04em;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 color: #fff;
 font-weight: 400;
+line-height: 1.5;
 }
 .email::placeholder {
   color: #fff;
@@ -520,7 +520,6 @@ font-weight: 400;
 
 .subscribe {
   display: flex;
-  gap: 16px;
   background-color: var(--color-blue);
   cursor: pointer;
   border-radius: 4px;
@@ -530,15 +529,19 @@ font-weight: 400;
   justify-content: center;
   height: 40px;
   border: none;
-  min-width: 165px
-}
-.subscribe-text {
-  font-size: 16px;
+  min-width: 165px;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
 }
+.subscribe-svg {
+  margin-left: 16px;
+}
+
+
+
 
 .backdrop {
   position: fixed;
