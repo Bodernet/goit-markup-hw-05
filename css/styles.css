@@ -742,9 +742,6 @@ fill: #fff;
   border: none; 
   fill: #F4F4FD;;
 }
-.modal-checkbox-input:checked + .modal-checkbox-chek .modal-checkbox-icon {
-  opacity: 1;
-}
 .privacy-text {
   color: #4d5ae5;
 }
