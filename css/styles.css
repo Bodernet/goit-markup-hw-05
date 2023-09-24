@@ -676,7 +676,9 @@ fill: #fff;
   fill: #4d5ae5;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.textarea-block {
+  margin-bottom: 16px;
+}
 .modal-textarea {
   display: block;
   max-width: 360px;
@@ -688,8 +690,7 @@ fill: #fff;
   padding-top: 8px;
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  margin-bottom: 16px;
-}
+  }
 .modal-textarea::placeholder {
   color: rgba(46, 47, 66, 0.4);
   font-size: 12px;
