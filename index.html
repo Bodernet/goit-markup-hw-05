@@ -555,34 +555,32 @@
             </div>
           </div>
           <div class="textarea-block">
-            <label class="modal-label" for="user-textarea">Comment</label>
-                <textarea
-                class="modal-textarea"
-                name="comment"
-                id="user-textarea"
-                placeholder="Text input"
-              ></textarea>        
-            
+            <label class="modal-label" for="user-comment">Comment</label>
+            <textarea
+              class="modal-textarea"
+              name="user-comment"
+              id="user-comment"
+              placeholder="Text input"
+            ></textarea>
           </div>
-            <div class="checkbox-policy">
-              <input
-                class="modal-checkbox-input"
-                type="checkbox"
-                id="privacy-policy"
-                name="privacy-policy"
-              />
+          <div class="checkbox-policy">
+            <input
+              class="modal-checkbox-input visually-hidden"
+              type="checkbox"
+              id="user-privacy"
+              name="privacy-policy"
+              value="true"
+            />
+            <label class="checkbox-text" for="user-privacy"
+              >I accept the terms and conditions of the
               <span class="modal-checkbox-chek">
-                <svg class="modal-checkbox-icon" width="16" height="16">
+                <svg class="modal-checkbox-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-Property-click"></use>
                 </svg>
-              </span>
-              <label class="checkbox-text" for="privacy-policy"
-                >I accept the terms and conditions of the
                 <a href="https://en.wikipedia.org/wiki/Privacy_policy"
-                  ><span class="privacy-text">Privacy Policy</span></a
-                >
-              </label>
-            
+                  ><span class="privacy-text">Privacy Policy</span></a>
+              </span>
+            </label>
           </div>
           <button class="order-button" type="button" data-modal-open>
             Send
